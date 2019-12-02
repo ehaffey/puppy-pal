@@ -1,5 +1,6 @@
 {
   "name": "puppy-pal",
+  "homepage": "https://ehaffey.github.io/puppy-pal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
