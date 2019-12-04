@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+  withRouter,
+  Route
+  //Link
+} from 'react-router-dom';
+//import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar/NavBar';
+import Callback from './Callback';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          Hello world.
-        </p>
+      <div>
+        <NavBar/>
+        <Route exact path='/callback' component={Callback}/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
