@@ -1,4 +1,5 @@
 import auth0 from 'auth0-js';
+import clientUrl from './clientUrl'
 
 class Auth {
   constructor() {
@@ -7,7 +8,7 @@ class Auth {
       domain: 'dev-nwd0sag5.auth0.com',
       audience: 'https://dev-nwd0sag5.auth0.com/userinfo',
       clientID: 'ygju2CmiNLwycry41b5db7wO4Z8rxxo3',
-      redirectUri: 'http://localhost:3000/callback',
+      redirectUri: clientUrl + '/callback',
       responseType: 'id_token',
       scope: 'openid profile'
     });
