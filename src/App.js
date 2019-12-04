@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Route path='/callback' component={Callback}/>
+        <Route exact path='/callback' component={Callback}/>
       </div>
     );
   }
