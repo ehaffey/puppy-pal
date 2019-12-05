@@ -1,6 +1,6 @@
 let clientUrl
 const clientUrls = {
-  production: 'https://ehaffey.github.io/puppy-pal',
+  production: 'https://ehaffey.github.io/puppy-pal/#',
   development: 'http://localhost:3000'
 }
 
