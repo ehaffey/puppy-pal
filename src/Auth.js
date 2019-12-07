@@ -9,7 +9,7 @@ class Auth {
       audience: 'https://dev-nwd0sag5.auth0.com/userinfo',
       clientID: 'ygju2CmiNLwycry41b5db7wO4Z8rxxo3',
       redirectUri: clientUrl + '/callback',
-      responseType: 'id_token',
+      responseType: 'token id_token',
       scope: 'openid profile'
     });
 
@@ -68,6 +68,7 @@ handleAuthentication() {
           return reject(err);
         }
         this.setSession(authResult);
+        // history.replace('/')
         resolve();
       });
     })
