@@ -15,9 +15,8 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-      //  <Route exact path='/callback' component={Callback}/>
         <Switch>
-         <Route exact path ='/callback'>
+         <Route exact path='/callback'>
            <Callback />
          </Route>
        </Switch>
