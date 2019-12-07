@@ -8,6 +8,7 @@ import {
 import './App.css';
 import NavBar from './NavBar/NavBar';
 import Callback from './Callback';
+import { createBrowserHistory } from "history";
 import auth0Client from './Auth'
 
 class App extends Component {
@@ -25,7 +26,7 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-         <Route path='/callback'>
+         <Route history={createBrowserHistory()} path='/callback'>
            <Callback />
          </Route>
       </div>
