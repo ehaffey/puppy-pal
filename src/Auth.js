@@ -35,28 +35,66 @@ class Auth {
   signIn() {
     this.auth0.authorize();
   }
+//
+//   handleAuthentication() {
+//     return new Promise((resolve, reject) => {
+//       this.auth0.parseHash((err, authResult) => {
+//         if (err) return reject(err);
+//         if (!authResult || !authResult.idToken) {
+//           return reject(err);
+//         }
+//         this.idToken = authResult.idToken;
+//         this.profile = authResult.idTokenPayload;
+//         // set the time that the id token will expire at
+//         this.expiresAt = authResult.idTokenPayload.exp * 1000;
+//         resolve();
+//       });
+//     })
+//   }
+//
+//   signOut() {
+//     // clear id token, profile, and expiration
+//     this.idToken = null;
+//     this.profile = null;
+//     this.expiresAt = null;
+//   }
+// }
 
-  handleAuthentication() {
+handleAuthentication() {
     return new Promise((resolve, reject) => {
       this.auth0.parseHash((err, authResult) => {
         if (err) return reject(err);
         if (!authResult || !authResult.idToken) {
           return reject(err);
         }
-        this.idToken = authResult.idToken;
-        this.profile = authResult.idTokenPayload;
-        // set the time that the id token will expire at
-        this.expiresAt = authResult.idTokenPayload.exp * 1000;
+        this.setSession(authResult);
         resolve();
       });
     })
   }
 
+  setSession(authResult) {
+    this.idToken = authResult.idToken;
+    this.profile = authResult.idTokenPayload;
+    // set the time that the id token will expire at
+    this.expiresAt = authResult.idTokenPayload.exp * 1000;
+  }
+
   signOut() {
-    // clear id token, profile, and expiration
-    this.idToken = null;
-    this.profile = null;
-    this.expiresAt = null;
+    this.auth0.logout({
+      returnTo: clientUrl,
+      clientID: 'ygju2CmiNLwycry41b5db7wO4Z8rxxo3',
+    });
+  }
+
+  silentAuth() {
+    return new Promise((resolve, reject) => {
+      this.auth0.checkSession({}, (err, authResult) => {
+        if (err) return reject(err);
+        this.setSession(authResult);
+        resolve();
+      });
+    });
   }
 }
 
