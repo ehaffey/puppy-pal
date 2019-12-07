@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {
   withRouter,
-  Route,
-  Switch
+  Route
   //Link
 } from 'react-router-dom';
 //import logo from './logo.svg';
@@ -26,11 +25,9 @@ class App extends Component {
     return (
       <div>
         <NavBar/>
-        <Switch>
          <Route path='/callback'>
            <Callback />
          </Route>
-       </Switch>
       </div>
     );
   }
