@@ -1,6 +1,19 @@
 {
-  "main.css": "static/css/main.ba40dd0c.css",
-  "main.css.map": "static/css/main.ba40dd0c.css.map",
-  "main.js": "static/js/main.b4cb6cf6.js",
-  "main.js.map": "static/js/main.b4cb6cf6.js.map"
+  "files": {
+    "main.css": "/puppy-pal/static/css/main.1f514d9b.chunk.css",
+    "main.js": "/puppy-pal/static/js/main.cb629ad9.chunk.js",
+    "main.js.map": "/puppy-pal/static/js/main.cb629ad9.chunk.js.map",
+    "runtime~main.js": "/puppy-pal/static/js/runtime~main.6ff48b30.js",
+    "runtime~main.js.map": "/puppy-pal/static/js/runtime~main.6ff48b30.js.map",
+    "static/css/2.11b452ed.chunk.css": "/puppy-pal/static/css/2.11b452ed.chunk.css",
+    "static/js/2.c1ed8a11.chunk.js": "/puppy-pal/static/js/2.c1ed8a11.chunk.js",
+    "static/js/2.c1ed8a11.chunk.js.map": "/puppy-pal/static/js/2.c1ed8a11.chunk.js.map",
+    "index.html": "/puppy-pal/index.html",
+    "precache-manifest.bb880ccf89f27cfeb56ec502b0c37392.js": "/puppy-pal/precache-manifest.bb880ccf89f27cfeb56ec502b0c37392.js",
+    "service-worker.js": "/puppy-pal/service-worker.js",
+    "static/css/2.11b452ed.chunk.css.map": "/puppy-pal/static/css/2.11b452ed.chunk.css.map",
+    "static/css/main.1f514d9b.chunk.css.map": "/puppy-pal/static/css/main.1f514d9b.chunk.css.map",
+    "static/media/loading.svg": "/puppy-pal/static/media/loading.c5590569.svg",
+    "static/media/logo.svg": "/puppy-pal/static/media/logo.5d5d9eef.svg"
+  }
 }
