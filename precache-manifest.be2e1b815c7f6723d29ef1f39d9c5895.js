@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34d2d12367c75d750ecf6496a338a81d",
+    "revision": "7d588033a616c25208561a76e2ef3a64",
     "url": "/puppy-pal/index.html"
   },
   {
-    "revision": "d5e88fc23f6875aa4085",
+    "revision": "6686781c3f3c316ca9a8",
     "url": "/puppy-pal/static/css/2.11b452ed.chunk.css"
   },
   {
-    "revision": "c4a58a9427eb4ae1c250",
+    "revision": "0fa04c6d5d488b38ec8e",
     "url": "/puppy-pal/static/css/main.1f514d9b.chunk.css"
   },
   {
-    "revision": "d5e88fc23f6875aa4085",
-    "url": "/puppy-pal/static/js/2.c1ed8a11.chunk.js"
+    "revision": "6686781c3f3c316ca9a8",
+    "url": "/puppy-pal/static/js/2.de21fcdb.chunk.js"
   },
   {
-    "revision": "c4a58a9427eb4ae1c250",
-    "url": "/puppy-pal/static/js/main.6efcd4c9.chunk.js"
+    "revision": "0fa04c6d5d488b38ec8e",
+    "url": "/puppy-pal/static/js/main.39d2aa81.chunk.js"
   },
   {
     "revision": "fbdf927508ca09ba9aa2",
