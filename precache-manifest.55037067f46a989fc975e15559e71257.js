@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e37c8ba1099739c25fb54ca0fec6d4bc",
+    "revision": "a846e0513a6101c9d8ca715ea49f8845",
     "url": "/puppy-pal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puppy-pal/static/css/2.11b452ed.chunk.css"
   },
   {
-    "revision": "a87f06f64a21e1027c7f",
+    "revision": "9e799e5f265011b0a8d0",
     "url": "/puppy-pal/static/css/main.1f514d9b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puppy-pal/static/js/2.c1ed8a11.chunk.js"
   },
   {
-    "revision": "a87f06f64a21e1027c7f",
-    "url": "/puppy-pal/static/js/main.cb629ad9.chunk.js"
+    "revision": "9e799e5f265011b0a8d0",
+    "url": "/puppy-pal/static/js/main.0e783fd8.chunk.js"
   },
   {
     "revision": "fbdf927508ca09ba9aa2",
