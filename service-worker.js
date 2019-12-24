@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/puppy-pal/precache-manifest.e54ec641bb6744c53430a5eb477cc57a.js"
+  "/puppy-pal/precache-manifest.e728fe33c818bbe40fd0f429e48b0643.js"
 );
 
 self.addEventListener('message', (event) => {
