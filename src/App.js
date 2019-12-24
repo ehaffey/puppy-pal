@@ -20,11 +20,13 @@ initFontAwesome();
 
 const App = () => {
   const { loading } = useAuth0();
-
+  console.log('Before if statement or something')
+  console.log(loading)
   if (loading) {
+    console.log('in if')
     return <Loading />;
   }
-
+  console.log('we escaped')
   return (
     <Router history={history}>
       <div id="app" className="d-flex flex-column h-100">
