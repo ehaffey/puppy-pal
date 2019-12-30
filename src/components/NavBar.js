@@ -17,7 +17,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-
+import clientUrl from '../clientUrl'
 import { useAuth0 } from "../react-auth0-spa";
 
 const NavBar = () => {
@@ -27,7 +27,7 @@ const NavBar = () => {
 
   const logoutWithRedirect = () =>
     logout({
-      returnTo: window.location.origin
+      returnTo: clientUrl
     });
 
   return (
