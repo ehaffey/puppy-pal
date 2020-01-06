@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "550ec49e27b6caa746165a0160538fc9",
+    "revision": "67b9bfcf21ff7124671377dd2c272f0c",
     "url": "/puppy-pal/index.html"
   },
   {
-    "revision": "d5e88fc23f6875aa4085",
+    "revision": "0a402804f080fced477c",
     "url": "/puppy-pal/static/css/2.11b452ed.chunk.css"
   },
   {
-    "revision": "5aa915e3d88105ad7041",
+    "revision": "12bb891d400c2883300a",
     "url": "/puppy-pal/static/css/main.1f514d9b.chunk.css"
   },
   {
-    "revision": "d5e88fc23f6875aa4085",
-    "url": "/puppy-pal/static/js/2.c1ed8a11.chunk.js"
+    "revision": "0a402804f080fced477c",
+    "url": "/puppy-pal/static/js/2.21a04338.chunk.js"
   },
   {
-    "revision": "5aa915e3d88105ad7041",
-    "url": "/puppy-pal/static/js/main.6e1b3ac4.chunk.js"
+    "revision": "12bb891d400c2883300a",
+    "url": "/puppy-pal/static/js/main.5aec4d69.chunk.js"
   },
   {
     "revision": "fbdf927508ca09ba9aa2",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puppy-pal/static/media/loading.c5590569.svg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/puppy-pal/static/media/logo.5d5d9eef.svg"
+    "revision": "ef13083a11720928cc88d2bb8a4d7821",
+    "url": "/puppy-pal/static/media/logo.ef13083a.svg"
   }
 ]);
